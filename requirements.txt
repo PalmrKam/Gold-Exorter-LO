@@ -1,9 +1,0 @@
-numpy==1.20.1
-pandas==1.2.4
-docx==0.2.4
-docx2txt==0.8
-Pillow==8.4.0
-pyautogui==0.9.53
-selenium==4.0.0
-streamlit==1.0.0
-textract==1.6.4

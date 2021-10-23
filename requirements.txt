@@ -7,3 +7,4 @@ pyautogui==0.9.53
 selenium==4.0.0
 streamlit==1.0.0
 textract==1.6.4
+exceptions

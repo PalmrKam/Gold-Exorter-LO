@@ -4,6 +4,7 @@ import streamlit as st
 #######################
 from selenium import webdriver 
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from getpass import getpass
 import time
 #from Screenshot import Screenshot_Clipping
@@ -2875,7 +2876,7 @@ def getscreenshot_of_url(url):
 
     
     #'./chromedriver', options=chrome_options
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
     driver.get(GOLD_CodirWorldwide_dash1)
     
     

@@ -17,7 +17,6 @@ from docx.enum.section import WD_ORIENT
 from docx.enum.section import WD_SECTION
 from datetime import date
 #########################
-import cv2
 from PIL import Image
 import PIL
 from io import BytesIO

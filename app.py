@@ -10,7 +10,6 @@ import time
 ########################
 from docx import Document
 from docx.enum.section import WD_ORIENT
-import pyautogui
 import docx
 from docx.shared import Inches, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH

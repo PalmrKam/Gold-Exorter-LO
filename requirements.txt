@@ -6,4 +6,4 @@ Pillow==8.4.0
 selenium==4.0.0
 streamlit==1.0.0
 textract==1.6.4
-OpenCV==4.5.4 
+opencv-python

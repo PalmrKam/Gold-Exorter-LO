@@ -2877,8 +2877,8 @@ def getscreenshot_of_url(url):
 
     
     #'./chromedriver', options=chrome_options
-    # driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.GOOGLE).install())
-    driver = webdriver.Chrome(options=chrome_options)
+    # driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
     driver.get(GOLD_CodirWorldwide_dash1)
     
     

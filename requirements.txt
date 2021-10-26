@@ -8,3 +8,4 @@ streamlit==1.0.0
 textract==1.6.4
 chromedriver == 2.24.1
 webdriver-manager==3.5.1
+google-chrome==0.1
